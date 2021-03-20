@@ -31,4 +31,18 @@
   position: relative;
   top: 150px;
 }
+
+.start_btn {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+.card_2 {
+  margin-left: 200px;
+}
+
+.card_3 {
+  margin-left: 400px;
+}
 /*# sourceMappingURL=style.css.map */
