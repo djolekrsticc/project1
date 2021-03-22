@@ -11,7 +11,7 @@
 <body>
     
     <!-- Logo and info section -->
-    <div class="container">
+    <div id="home" class="container">
         <div class="row pt-4 m-1">
             <div class="col-2">
                 <a class="navbar-brand fs-1 text-dark" href="#">
@@ -55,22 +55,24 @@
         <div class="container">
             <ul class="navbar-nav text-uppercase">
                 <li class="nav-item">
-                  <a class="nav-link fw-bold text-white" href="#">Home</a>
+                  <a class="nav-link fw-bold text-white" href="#home">Home</a>
                 </li>
                 <li class="nav-item ps-5">
-                  <a class="nav-link fw-bold text-white" href="#">Features</a>
+                  <a class="nav-link fw-bold text-white" href="#whychooseus">Why Choose Us</a>
                 </li>
                 <li class="nav-item ps-5">
-                  <a class="nav-link fw-bold text-white" href="#">Pricing</a>
+                  <a class="nav-link fw-bold text-white" href="#about">About</a>
                 </li>
                 <li class="nav-item ps-5">
-                  <a class="nav-link fw-bold text-white" href="#">About</a>
+                  <a class="nav-link fw-bold text-white" href="#latestnews">Latest NEWS</a>
                 </li>
-                
+                <li class="nav-item ps-5">
+                    <a class="nav-link fw-bold text-white" href="#contact">Contact</a>
+                  </li>
               </ul>
               <ul class="navbar-nav text-uppercase">
                 <li class="nav-item join_us">
-                    <a class="nav-link fw-bold text-white" href="#">Join us</a>
+                    <a class="nav-link fw-bold text-white" href="#joinus">Join us</a>
                   </li>
               </ul>
         </div>
@@ -106,7 +108,7 @@
 
 
       <!-- Why choose us section -->
-      <div class="container mt-5">
+      <div id="whychooseus" class="container mt-5">
           <div class="row d-flex flex-column">
               <div class="col-12">
                 <div class="row d-flex flex-column">
@@ -153,7 +155,7 @@
       </div>
 
     <!-- About us section -->
-    <div class="container about_container">
+    <div id="about" class="container about_container">
         <div class="row">
             <div class="col-4">
                 <img src="img/hacker2.svg" class="img-fluid">
@@ -170,7 +172,7 @@
     </div>
 
     <!-- Latest NEWS section -->
-    <div class="container lnews_class">
+    <div id="latestnews" class="container lnews_class">
         <div class="row d-flex flex-column">
             <div class="col-12">
               <div class="row d-flex flex-column">
@@ -302,11 +304,11 @@
 
 
     <!-- Sign up section-->
-    <div class="container-fluid bg-danger mt-5">
+    <div id="joinus" class="container-fluid bg-danger mt-5">
         <div class="container">
         <div class="row text-white">
             <div class="col-6 mt-3 mb-2">
-                <h2 class="fs-1">Sign Up for Updates</h2>
+                <h2 class="fs-1">Join Us for Updates</h2>
                 <p class="fs-5">By subscribing to our mailing list you will always be updated.</p>
             </div>
             <div class="col-6 mt-4">
@@ -328,18 +330,17 @@
 
     <!-- Footer section -->
 
-    <div class="container-fluid bg-dark">
+    <div id="contact" class="container-fluid bg-dark">
         <div class="container">
             <div class="row">
             <div class="col-4 mt-5">
                 <ul class="text-white footer_list">
                     <h3>Navigation</h3>
-                    <li class="pt-3"><a href="#" class="link_list link-secondary fs-6">Home Page</a></li>
-                    <li class="pt-3"><a href="#" class="link_list link-secondary fs-6">Domain</a></li>
-                    <li class="pt-3"><a href="#" class="link_list link-secondary fs-6">Hosting</a></li>
-                    <li class="pt-3"><a href="#" class="link_list link-secondary fs-6">Gallery</a></li>
-                    <li class="pt-3"><a href="#" class="link_list link-secondary fs-6">Services</a></li>
-                    <li class="pt-3 pb-5"><a href="#" class="link_list link-secondary fs-6">Contact Us</a></li>
+                    <li class="pt-3"><a href="#home" class="link_list link-secondary fs-6">Home Page</a></li>
+                    <li class="pt-3"><a href="#whychooseus" class="link_list link-secondary fs-6">Why Choose Us</a></li>
+                    <li class="pt-3"><a href="#about" class="link_list link-secondary fs-6">About</a></li>
+                    <li class="pt-3"><a href="#latestnews" class="link_list link-secondary fs-6">Latest NEWS</a></li>
+                    
                   </ul>
             </div>
             <div class="col-4 mt-5 mb-5">
