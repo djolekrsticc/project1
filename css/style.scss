@@ -109,3 +109,31 @@ $card_margin_left: 30px;
 .logo_margin_top {
     margin-top: 100px;
 }
+
+.footer_list {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.link_list {
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+.date_class {
+    font-size: 12px;
+}
+
+.latestnews_link {
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.latestnews_link:hover {
+    color: $brand_color;
+}
+
+.form_bg_color {
+    background-color: #292b2c !important;
+}
