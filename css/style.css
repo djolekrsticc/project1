@@ -88,6 +88,8 @@
 
 .news_links {
   text-decoration: none;
+  color: #d9534f;
+  float: right;
 }
 
 .card_div {
